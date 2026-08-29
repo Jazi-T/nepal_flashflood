@@ -19,7 +19,7 @@ pystac-client>=0.9,<1
 planetary-computer>=1.0,<2
 stackstac>=0.5,<1
 earthengine-api>=1.5,<2
-planet>=2.15,<3
+planet>=3.6,<4
 
 # Image processing and machine learning
 scikit-image>=0.25,<1
