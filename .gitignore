@@ -1,0 +1,23 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Large map and GIS files
+nepal_flashflood_2026-08-26/04_maps/
