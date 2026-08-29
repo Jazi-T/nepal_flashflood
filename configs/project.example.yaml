@@ -1,0 +1,42 @@
+project:
+  name: nepal_tibet_flashflood_2026
+  event_date: "2026-08-26"
+  timezone: Asia/Kathmandu
+
+# Replace with a verified GeoJSON file or bounding box.
+aoi:
+  path: null
+  bbox_wgs84: null
+
+time_windows:
+  before:
+    start: null
+    end: "2026-08-25"
+  after:
+    start: "2026-08-26"
+    end: null
+
+processing:
+  working_crs: null
+  target_resolution_m: 10
+  max_cloud_cover_percent: 30
+  random_seed: 42
+
+sources:
+  planet:
+    enabled: false
+    item_types: [PSScene]
+  sentinel_1:
+    enabled: true
+  sentinel_2:
+    enabled: true
+  landsat:
+    enabled: true
+
+paths:
+  raw: data/raw
+  external: data/external
+  interim: data/interim
+  processed: data/processed
+  outputs: outputs
+

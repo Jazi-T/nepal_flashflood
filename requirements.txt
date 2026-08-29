@@ -1,0 +1,44 @@
+# Core numerical and tabular analysis
+numpy>=2.0,<3
+pandas>=2.2,<3
+scipy>=1.14,<2
+
+# Vector, raster, and multidimensional geospatial processing
+geopandas>=1.0,<2
+shapely>=2.0,<3
+pyproj>=3.7,<4
+rasterio>=1.4,<2
+rioxarray>=0.18,<1
+xarray>=2025.1,<2027
+dask[array]>=2025.1,<2027
+odc-geo>=0.4,<1
+
+# STAC and remote-sensing data access
+pystac>=1.12,<2
+pystac-client>=0.9,<1
+planetary-computer>=1.0,<2
+stackstac>=0.5,<1
+earthengine-api>=1.5,<2
+planet>=2.15,<3
+
+# Image processing and machine learning
+scikit-image>=0.25,<1
+scikit-learn>=1.6,<2
+
+# Mapping and visualization
+matplotlib>=3.10,<4
+seaborn>=0.13,<1
+plotly>=6.0,<7
+folium>=0.19,<1
+leafmap>=0.42,<1
+contextily>=1.6,<2
+
+# Configuration, notebooks, progress, and testing
+PyYAML>=6.0,<7
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+tqdm>=4.67,<5
+jupyterlab>=4.3,<5
+ipywidgets>=8.1,<9
+pytest>=8.3,<9
+

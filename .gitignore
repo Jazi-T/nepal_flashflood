@@ -1,23 +1,63 @@
-# Python cache and environments
-__pycache__/
-*.py[cod]
+# Credentials and local configuration
+.env
+configs/project.yaml
+*.pem
+*.key
+
+# Python
 .venv/
 venv/
-
-# Test and tooling caches
+__pycache__/
+*.py[cod]
+*.egg-info/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
 
-# IDE and operating-system files
-.idea/
+# Notebook and editor state
+.ipynb_checkpoints/
+.jupyter/
 .vscode/
+.idea/
+*~
 .DS_Store
+Thumbs.db
 
-# Local secrets and environment settings
-.env
-.env.*
-!.env.example
+# Data and generated products (directory placeholders remain tracked)
+data/raw/**
+data/external/**
+data/interim/**
+data/processed/**
+outputs/figures/**
+outputs/maps/**
+outputs/reports/**
+outputs/tables/**
+web/data/**
+!**/.gitkeep
 
-# Large map and GIS files
+# Preserved local incident maps
 nepal_flashflood_2026-08-26/04_maps/
+
+# Common large geospatial artifacts outside the standard data directories
+*.tif
+*.tiff
+*.jp2
+*.img
+*.vrt
+*.mbtiles
+*.pmtiles
+*.gpkg
+*.parquet
+*.geoparquet
+*.h5
+*.hdf5
+*.nc
+*.zip
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
